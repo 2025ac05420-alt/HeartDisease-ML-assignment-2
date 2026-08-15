@@ -105,8 +105,3 @@ if uploaded_file is not None:
 else:
     st.info("👈 Please upload `test_data.csv` from the sidebar to begin evaluation.")
 
-!streamlit run app.py &>/content/logs.txt &
-
-!npx localtunnel --port 8501
-
-!curl ://icanhazip.com
